@@ -5,7 +5,7 @@ body{
     justify-content: center;
     align-items: center;
     font-family: YoungSerif;
-    src: url('assets/fonts/young-serif/YoungSerif-Regular.ttf');
+    src: url('/ass');
     background-color: #F2D2BD;
     color: #4a2c23;
 }
@@ -25,7 +25,7 @@ body{
     border-radius: 10px;
 }
 
-.PreparationSection{
+.Prep{
     background: #FFE4E1;
     border-radius: 10px;  
     width: 500px;
@@ -34,15 +34,15 @@ body{
     padding-bottom: 5px; 
 }
 
-.PreparationSection h3{
+.Prep h3{
     padding-left: 10px;
 }
 
-.PreparationSection li{
+.Prep li{
     padding-left: 30px
 }
 
-.IngredientsSection{
+.Ingredients{
     border-style: solid;
     border-top: white;
     border-left: white;
@@ -50,7 +50,7 @@ body{
     border-color: lightGray;
 }
 
-.InstructionSection{
+.Instructions{
     border-style: solid;
     border-top: white;
     border-left: white;
@@ -59,7 +59,7 @@ body{
 }
 
 
-.NutritionNumbers{
+.Numbers{
     color: Brown;
 }
 
