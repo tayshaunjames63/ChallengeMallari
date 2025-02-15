@@ -5,7 +5,7 @@ body{
     justify-content: center;
     align-items: center;
     font-family: YoungSerif;
-    src: url('/ass');
+    src: url('YoungSerif-Regular.ttf');
     background-color: #F2D2BD;
     color: #4a2c23;
 }
