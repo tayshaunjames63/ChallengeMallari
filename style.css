@@ -31,7 +31,7 @@ body{
     width: 500px;
     height: 125px;
     padding-top: 5px;
-    padding-bottom: 5px; 
+    padding-bottom: 40px; 
 }
 
 .Prep h3{
@@ -66,4 +66,18 @@ body{
 table td{
     border-bottom: solid lightgray;
     padding-right: 200px;
+}
+
+@font-face{
+    font-family: YoungSerif;
+    src: url('YoungSerif-Regular.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: Outfit;
+    src: url('') format('truetype');
+}
+
+body{
+    font-family: YoungSerif;
 }
