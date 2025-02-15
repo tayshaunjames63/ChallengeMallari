@@ -75,7 +75,7 @@ table td{
 
 @font-face{
     font-family: Outfit;
-    src: url('') format('truetype');
+    src: url('/Outfit-VariableFont_wght.ttf') format('truetype');
 }
 
 body{
