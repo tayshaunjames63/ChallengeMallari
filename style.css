@@ -1,18 +1,19 @@
 body{
     margin: 0;
-    padding:0;
+    padding: 0;
     display: flex;
     justify-content: center;
+    align-items: center;
     font-family: YoungSerif;
-    src: url('recipe-page-main/assets/fonts/young-serif');
+    src: url('assets/fonts/young-serif/YoungSerif-Regular.ttf');
     background-color: #F2D2BD;
-    color: #4A2C23;
+    color: #4a2c23;
 }
 
-.Rec{
+.Recipe{
     max-width: 500px;
     padding: 20px;
-    background-color: white;
+    background: white;
     border-radius: 10px;
     margin: 200px;
 }
@@ -24,44 +25,45 @@ body{
     border-radius: 10px;
 }
 
-.Prep{
+.PreparationSection{
     background: #FFE4E1;
-    border-radius: 10px;
+    border-radius: 10px;  
     width: 500px;
     height: 125px;
     padding-top: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 5px; 
 }
 
-.Prep h3{
+.PreparationSection h3{
     padding-left: 10px;
 }
 
-.Prep li{
-    padding-left: 30px;
+.PreparationSection li{
+    padding-left: 30px
 }
 
-.Ingredients{
+.IngredientsSection{
     border-style: solid;
     border-top: white;
     border-left: white;
     border-right: white;
-    border-color: lightgrey;
+    border-color: lightGray;
 }
 
-.Instructions{
+.InstructionSection{
     border-style: solid;
     border-top: white;
     border-left: white;
     border-right: white;
-    border-color: lightgrey;
+    border-color: lightGray;
 }
+
 
 .NutritionNumbers{
-    color: brown;
+    color: Brown;
 }
 
 table td{
-    border-bottom: solid lightgrey;
+    border-bottom: solid lightgray;
     padding-right: 200px;
 }
